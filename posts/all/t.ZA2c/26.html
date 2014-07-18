@@ -1,0 +1,2985 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>조밍님의 미투데이</title>
+    <link href="../../../styles/write_form.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/mystream_1.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/mystream_2.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/friends.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/common_layout.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/colorbox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/topbar.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/post.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/profile.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/windows.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/safari.css" media="screen" rel="stylesheet" type="text/css">
+<style type="text/css" id="e1_style">
+.menu_navi ul li a {
+  display: block;
+  zoom: 1;
+  line-height: 34px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #666;
+  text-indent: 16px;
+  text-decoration: none;
+  background: url(../../../images/common/side_menu_common_bg.gif) no-repeat;
+}
+
+.c_topbar {
+  position: relative;
+  z-index: 10002;
+  margin-bottom: -2px;
+  padding-bottom: 2px;
+  background: url(../../../images/common/bg_c_topbar_myme2.png) repeat-x scroll 0 0;
+}
+
+.menu_navi ul li .sub_list {
+  padding: 6px 0 20px;
+  background: url(../../../images/stream/side_menu_bg_sub.png) no-repeat left bottom;
+}
+
+.content_breadcrum .parent {
+  float: left;
+  position: relative;
+  top: 6px;
+  display: inline-block;
+  height: 29px;
+  margin-right: 5px;
+  padding-right: 21px;
+  background: url(../../../images/friend_manage/bg_breadcrum1.gif) no-repeat 100% 5px;
+  font-weight: bold;
+  color: #888;
+}
+
+.content_header {
+  position: relative;
+  z-index: 4;
+  background: url(../../../images/stream/bg_mystream_head_tab_49.png) no-repeat scroll left top transparent;
+  color: #353535;
+  font-size: 12px;
+  font-weight: bold;
+  height: 51px;
+  line-height: 50px;
+  padding: 0 25px 0 24px;
+  text-align: center;
+}
+
+* html .content_header {
+  position: static;
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../../../images/stream/bg_mystream_head_tab_49.png, sizingMethod='crop');
+}
+
+.content_breadcrum .all_friend {
+  float: left;
+  position: relative;
+  top: 2px;
+  left: 4px;
+  display: inline-block;
+  height: 29px;
+  padding-right: 24px;
+  color: #565656;
+  text-decoration: none !important;
+}
+
+.content_breadcrum .all_friend .group_name {
+  display: inline-block;
+  height: 29px;
+  padding: 0 0 2px 8px;
+  background: transparent url(../../../images/friend_manage/bg_friend_cate_left.gif) no-repeat 0 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.contents_wrap {
+  position: relative;
+  z-index: 1;
+  min-height: 583px;
+  _height: 583px;
+  padding-bottom: 50px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+}
+
+.myst_marketing_notice {
+  padding: 15px 0 0 34px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.watch_header {
+  z-index: 2;
+  position: relative;
+  padding: 17px 0 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.myst_notice {
+  padding: 0 5px 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.event_banner_view {
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 0px 5px 0 5px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+.setting_moa_view {
+  position: relative;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 25px 34px 0 35px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+.setting_moa {
+  position: relative;
+  padding: 11px 0 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.mission_guide {
+  padding: 25px 0 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+  font-size: 11px;
+  zoom: 1;
+}
+
+.another_tag {
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+  padding: 15px 0 0 38px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.another_cal {
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+  padding: 15px 0 0 80px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.me_sub_title {
+  position: relative;
+  z-index: 1;
+  width: 829px;
+  overflow: hidden;
+  padding: 7px 0 9px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  zoom: 1;
+}
+
+.friends_view_type {
+  position: relative;
+  z-index: 2;
+  padding: 22px 35px 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+.single #friends_list {
+  overflow: hidden;
+  zoom: 1;
+  padding: 30px 38px 15px;
+  font-size: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.single .single_wrap2 .contents_wrap {
+  overflow: hidden;
+  zoom: 1;
+  padding: 15px 0px 15px;
+  font-size: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.single .single_wrap2 .common_result {
+  background-image: url(../../../images/stream/bg_mystream_repeat_y2.png)
+}
+
+.single .single_wrap2 .page_navi2 {
+  padding-bottom: 10px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.belt_bn {
+  padding: 0 5px 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.activity_noti {
+  position: relative;
+  overflow: hidden;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 25px 34px 0 35px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+#announcement_section {
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+.common_result {
+  position: relative;
+  z-index: 2;
+  padding: 27px 35px 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+* html .common_result {
+  height: 46px;
+  zoom: 1;
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../../../, sizingMethod='scale');
+}
+
+.flashback_wrap .me_sub_title {
+  position: relative;
+  padding-top: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  zoom: 1;
+}
+
+.btn_type_default_10 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.setting_moa_view button {
+  width: auto;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 0;
+  padding-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #777;
+  text-align: center;
+  border: 0;
+  background-image: url(../../../images/button/btn_default_type1_l.png);
+  vertical-align: baseline;
+}
+
+.btn_type_default_1 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn_type_default_1 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_default_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_default_1 .btn {
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding: 0 5px;
+  vertical-align: top;
+  border: 0;
+  text-decoration: none !important;
+  text-align: center;
+  background: url(../../../images/button/btn_default_type1.png) repeat-x;
+}
+
+.btn_pressed {
+  cursor: default !important;
+  background-image: url(../../../images/button/btn_default_type1_l_pressed.png);
+}
+
+.btn_type_default_4 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_default_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_default_4 .btn {
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding: 0 5px;
+  vertical-align: top;
+  border: 0;
+  text-decoration: none !important;
+  text-align: center;
+  background: url(../../../images/button/btn_default_type1.png) repeat-x;
+}
+
+.btn_type_default_4 .status {
+  display: inline-block;
+  width: auto !important;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 17px;
+  background: url(../../../images/button/bul_metoo_1.gif) no-repeat scroll 0 center;
+}
+
+.btn_type_default_4 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px 0 0;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.contents_wrap .sec_post .metoo_count .count_plus {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0 0 0 19px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 12px;
+  color: #937cd8;
+  text-decoration: none;
+  background: url(../../../images/stream/bg_me2_count_l.gif) no-repeat left top;
+  cursor: pointer;
+  _cursor: hand;
+}
+
+.post .post_body .post_added .metoo_count .metoo_count_number {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 0 0 -4px;
+  padding: 0 0 0 5px;
+  vertical-align: top;
+  color: #7b5fd4;
+  text-decoration: none;
+  white-space: nowrap;
+  background: url(../../../images/post/bg_me2_count_l.png) no-repeat 0 0;
+}
+
+.contents_wrap .sec_post .metoo_count .count_plus span {
+  display: inline-block;
+  height: 23px;
+  padding: 0 7px 0 3px;
+  line-height: 23px;
+  background: url(../../../images/stream/bg_me2_count_r.gif) no-repeat scroll right top;
+}
+
+.post .post_body .post_added .metoo_count .metoo_count_number .bg {
+  display: inline-block;
+  position: static;
+  width: auto;
+  height: 25px;
+  margin: 0;
+  line-height: 25px;
+  padding: 0 8px 0 6px;
+  vertical-align: top;
+  text-align: center;
+  font-family: tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  background: url(../../../images/post/bg_me2_count_r.png) no-repeat 100% 0;
+}
+
+.no_more_no_navi {
+  padding-bottom: 11px;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat bottom right;
+}
+
+.more_view {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  background: url(../../../images/stream/bg_mystream_bottom.png) no-repeat;
+}
+
+.page_navi {
+  position: relative;
+  width: 100%;
+  height: 11px;
+  overflow: visible;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat;
+}
+
+.page_navi2 {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 11px;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat;
+}
+
+.single .more_view {
+  background: url(../../../images/stream/bg_mystream_bottom3.png) no-repeat left top;
+}
+
+.btn_type_strong_1 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn_type_strong_5 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+}
+
+.btn_type_strong_6 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+}
+
+.btn_type_strong_1 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_5 .btn_inner {
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_6 .btn_inner {
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_1 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_5 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_6 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_1.btn_me2 .status {
+  display: inline-block;
+  padding-left: 19px;
+  height: 33px;
+  line-height: 33px;
+  background: url(../../../images/button/bul_me2_w.png) no-repeat scroll 0 center;
+}
+
+.me2box.type_7 .me2_count.big {
+  height: 33px !important;
+  line-height: 32px !important;
+  padding-left: 6px;
+  font-size: 12px !important;
+  background: url(../../../images/discovery/bg_me2count5_l.png) no-repeat left top !important;
+}
+
+.me2box.type_7 .me2_count.big b {
+  height: 33px !important;
+  line-height: 32px !important;
+  font-size: 12px !important;
+  background: url(../../../images/discovery/bg_me2count5_r.png) no-repeat right top !important;
+}
+
+.pi_s .wrap {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/stream/fb_pf_s.png) no-repeat scroll 0 0;
+}
+
+.c_topbar .c_search_suggestion .ui-autocomplete li a .wrap:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/stream/fb_pf_s.png) no-repeat 0 0;
+}
+
+.profile_box_inner {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  padding: 33px 36px 25px;
+  background: url(../../../images/single/bg_profile_box_2.gif) no-repeat 60px top;
+}
+
+    .color_set1 {
+      background-color: #D0D0D0 !important;
+      border-color: #D0D0D0 !important;
+    }
+
+    /* 상단 띠 */
+    .color_set2 {
+      background-color: #C4C4C4 !important;
+    }
+
+    /* 배경 색 */
+    .color_set3 {
+      background-color: #FFFFFF !important;
+    }
+
+    /* 프로필 테두리 */
+    .color_set4,
+    .color_set4 a,
+    .color_set4 p {
+      color:#FFFFFF !important;
+    }
+
+    /* 모든 텍스트 */
+    .color_set5, a.color_set5, .color_set5 a {
+      color:  !important;
+    }
+
+    .skin_btn a.text_link {
+      text-decoration: none;
+      color: #FFFFFF;
+      font-size: 12px;
+      border: 1px solid #FFFFFF;
+      padding: 5px;
+    }
+
+.post .post_body .post_token,
+.post .post_body .post_text_body,
+.post .post_body .pingback_container .post .post_body .post_token,
+.post .post_body .pingback_container .post .post_body .post_text_body,
+.post .post_body .post_added, .type_attached,
+.post .post_body .pingback_container .post .post_body .post_added {
+  margin-left: 50px;
+}
+
+.map_location_alt {
+  padding: 0px 0px 10px 10px;
+  font-size: 13px;
+}
+
+</style>
+    <script src="../../../scripts/jquery-1.10.2.min.js"></script>
+<script>
+  function showProfilePopup(url, frame, x, y) {
+    $(frame).find('iframe').attr('src', url);
+    $(frame).css('left', x);
+    $(frame).css('top', y);
+    $(frame).css('z-index', 100);
+    $(frame).css('display', 'inline');
+    $(frame).css("position", "absolute");
+  }
+
+  function hideProfilePopup() {
+    var frame = "#profile_popup_frame";
+    $(frame).find('iframe').attr('src', "about:blank");
+    $(frame).css('display', 'none');
+  }
+
+  function getPostIdSelector(url) {
+    return escapeSelector(removeExt(url.substr(url.lastIndexOf('/') + 1)));
+  }
+
+  function escapeSelector(selector) {
+    return selector.replace(/\./g, "\\.");
+  }
+
+  function removeExt(filename) {
+    return filename.replace(/\.html$/, '')
+  }
+
+  function toggle(selector) {
+    if ($(selector).is(":visible")) {
+      $(selector).hide();
+    } else {
+      $(selector).show();
+    }
+  }
+
+  function loadUrl(url, placeHolder) {
+    $.get(url, function (data) {
+      $(placeHolder).replaceWith(data);
+    });
+  }
+
+  function selectTab(group, selected) {
+    $(selected).show();
+    var tabs = $(group).not(selected);
+    for (var index = 0; index < tabs.length; index++) {
+      $(tabs[index]).hide();
+    }
+  }
+
+  function hideNotFistPhotos(selector) {
+    var photoBoxes = $(selector);
+    for(var boxIndex = 0; boxIndex < photoBoxes.length; boxIndex++) {
+      var notFristPhotos = $(photoBoxes[boxIndex]).find(".photo").not(":first");
+      for(var photoIndex = 0; photoIndex < notFristPhotos.length; photoIndex++) {
+        $(notFristPhotos[photoIndex]).hide();
+      }
+    }
+  }
+
+  function bindProfilePopup() {
+    $(".profile_popup").on("click", function (event) {
+      event.preventDefault();
+      var frame = "#profile_popup_frame";
+      showProfilePopup( $(this).attr('href'), frame, event.pageX, event.pageY);
+    })
+  }
+
+  function bindMorePostListBtn(button, link, placeHolder) {
+    $(button).on("click", function (event) {
+      event.preventDefault();
+      loadUrl($(link).attr('href'), placeHolder);
+    });
+  }
+
+  function bindTabs(tabSelector) {
+    $(tabSelector).on("click", function (event) {
+      event.preventDefault();
+      var group = ".group_" + escapeSelector($(this).attr("data-rel"));
+      var selected = escapeSelector($(this).attr("href"));
+      selectTab(group, selected);
+    })
+  }
+
+  function bindToggle() {
+    $(".metoo_toggle").on("click", function (event) {
+      event.preventDefault();
+      var id = "#metoo_" + getPostIdSelector($(this).attr('href'));
+      toggle(id);
+    });
+
+    $(".comment_toggle").on("click", function (event) {
+      event.preventDefault();
+      var id = "#comment_" + getPostIdSelector($(this).attr('href'));
+      toggle(id);
+    });
+  }
+
+  function bindNoLink() {
+    $('.no_link').click(function(event)
+    {
+      event.preventDefault();
+    });
+  }
+</script>
+  <script>
+    $(document).ready(function () {
+      hideNotFistPhotos(".photo_box");
+      bindTabs(".multi_photo_thumb .img_link");
+      bindToggle();
+      bindNoLink();
+    });
+  </script>
+</head>
+<body class="skin300">
+<div class="skin_body color_set1 color_set2" id="skin_body_layer"></div>
+<div id="mystream">
+    <div class="c_topbar" id="id_gnb_topbar">
+  <div class="c_topbar_wrap">
+    <h1 class="s_logo">
+      <img src="../../../images/common/c_me2_logo_wt.png" alt="me2day" width="96" height="23" id="image_top_logo_img">
+    </h1>
+  </div>
+</div>
+  <div id="container">
+    <div class="custom_skin_contents2" style="background-image:url(../../../img/images/user/mrnoname/skin.png);"></div>
+    <div class="side_mn" id="side_bar">
+      <div class="whoareyou">
+  <div class="profile_image color_set3">
+    <div class="image_box">
+      <a >
+        <img class="profile_img" src="../../../img/images/user/mrnoname/profile.png" alt="조밍" height="77" width="77">
+      </a>
+    </div>
+  </div>
+  <div class="user_info">
+    <h2 class="color_set4"><a id="user_info_nickname" >조밍</a></h2>
+    <div class="user_intro" id="user_intro_box">
+      <p id="my_description" class="color_set5">
+        SNS는 흥미위주로만 합니다. 정치, 마케팅 관련 친구신청은 받지 않아요~ 인디,축구,만화,장르문학 좋아해요.
+      </p>
+    </div>
+  </div>
+</div>
+      <div class="menu_navi" id="sidebar_menu_navi">
+  <ul id="accordion">
+    <li class="mystream_link toggle">
+      <a class="mystream_link land">나는</a>
+      <div>
+        <ul class="sub_list">
+          <li><a href="../../../posts/all/t.ZA2c/index.html">모든글</a></li>
+          <li><a href="../../../posts/archive/t.ZA2c/index.html">돌아보는</a></li>
+          <li><a href="../../../posts/photo/t.ZA2c/index.html">포토</a></li>
+          <li><a href="../../../posts/theme/t.ZA2c/index.html">글감</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mystream_link">
+      <a class="mystream_link land">친구들과</a>
+      <div>
+        <ul class="sub_list">
+          <li><a href="../../../streams/withfriends/t.ZA2c/index.html">모든글</a></li>
+          <li><a href="../../../streams/received/t.ZA2c/index.html">받은댓글</a></li>
+          <li><a href="../../../streams/mentioned/t.ZA2c/index.html">소환받은글</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mystream_link">
+      <a class="mystream_link land" href="../../../stats/t.ZA2c/index.html">활동정보</a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+    <div class="section_wrap">
+      <div class="content_header">
+        <div class="content_breadcrum">
+          <h2 class="parent">나는</h2>
+		    <span class="all_friend" id="content_breadcrum_title">
+              <button class="group_name" type="button">모든글</button>
+			</span>
+        </div>
+      </div>
+      <div class="contents_wrap" id="container_contents">
+          
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">29</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://www.youtube.com/watch?v=xKXJzwjfcZ8">Vampire Killer, Castlevania X Ver.(1993)</a>
+
+                 아침부터 갑자기 생각나서 찾아 들음...여러가지 버전이 있지만, 난 이 버전이 제일 좋다. 도입부가 음침한게 마음에 들어서...
+
+      </span>
+      <a href="../../../post/p.bR2pQ.ZA2c.html" class="date_time" title="11.11.29 10:41">11.11.29 10:41</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2game me2ost</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bR2pQ.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bR2pQ.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">28</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                우왓~ 감사합니다~ ㅎ_ㅎ 재밌게 볼게요~
+
+      </span>
+      <a href="../../../post/p.bQ7A8.ZA2c.html" class="date_time" title="11.11.28 16:54">11.11.28 16:54</a>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bQ7A8.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bQ7A8.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_9.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;oid=009&amp;aid=0002583638&amp;sid1=001">&#39;이효리-이상순 열애, 양측 모두 인정&#39;</a>
+
+                 헐!
+
+      </span>
+      <a href="../../../post/p.bQtlI.ZA2c.html" class="date_time" title="11.11.28 13:08">11.11.28 13:08</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bQtlI.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bQtlI.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">4</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bQtlI.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="곰심이" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/gomsim/profile.png" alt="곰심이">
+                </a></li>
+          </ul>
+        </div>
+        <div id="comment_p.bQtlI.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  이제 롤코 안듣습니다
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.28 13:12</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  아 베란다에도 안갑니다
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.28 13:13</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/20131206_138/egoistyle_1386307929222VDw60_PNG/original_profile.s75.png" alt="현정" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">현정</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  김동률은 연막이었나보네요. ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.28 13:16</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/gomsim/profile.png" alt="곰심이" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">곰심이</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  헐!!!!
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.28 13:37</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_9.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://movie.naver.com/movie/bi/pi/basic.nhn?code=4132">미쉘 공드리</a>
+
+                가 문득 생각나 검색 해봤는데, 이 아저씨 쉘든 닮은 듯?!
+
+      </span>
+      <a href="../../../post/p.bQtbA.ZA2c.html" class="date_time" title="11.11.28 13:04">11.11.28 13:04</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bQtbA.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bQtbA.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">1</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bQtbA.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/20131206_138/egoistyle_1386307929222VDw60_PNG/original_profile.s75.png" alt="현정" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">현정</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  쉘든 늙은이 버전..ㅋㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.28 13:07</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">27</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_9.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                뉴캐슬 지금보니 완전 프렌치 커넥션이네
+
+      </span>
+      <a href="../../../post/p.bO0Qg.ZA2c.html" class="date_time" title="11.11.27 00:12">11.11.27 00:12</a>
+    </div>
+    <p class="post_tag">
+      <span>예전 아스날 생각나네</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bO0Qg.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bO0Qg.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">2</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bO0Qg.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/20131206_138/egoistyle_1386307929222VDw60_PNG/original_profile.s75.png" alt="현정" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">현정</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  지금 아스날도 아니고...예전..ㅜ.ㅠ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.27 00:17</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">현정</a>
+
+                                   실력보담도 지금은 예전만큼 프랑스 선수들이 많지 않은거 같아서요~ ㅋㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.27 00:25</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">26</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                이상은누님~ ㅎ_ㅎ 싱나~
+
+      </span>
+      <a href="../../../post/p.bOVvg.ZA2c.html" class="date_time" title="11.11.26 19:37">11.11.26 19:37</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2mobile me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bOVvg.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bOVvg.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DU_gM" class="photo group_p.bOVvg.ZA2c" >
+                <a href="../../../img/20111126_136/mrnoname_1322303824922Rj3zw_JPEG/mrnoname_1322303824_44448.jpg"><img src="../../../img/20111126_136/mrnoname_1322303824922Rj3zw_JPEG/mrnoname_1322303824_44448.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                공연 보기전까지 시간 때우러 들어온 카페에 신과 함께가 있다~ 요즘 몰아보고 있던 중인데...ㅋㅋ
+
+      </span>
+      <a href="../../../post/p.bOE4A.ZA2c.html" class="date_time" title="11.11.26 16:13">11.11.26 16:13</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2mobile me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bOE4A.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bOE4A.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">4</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DU4ao" class="photo group_p.bOE4A.ZA2c" >
+                <a href="../../../img/20111126_221/mrnoname_1322291591514A0Ooz_JPEG/mrnoname_1322291591_09452.jpg"><img src="../../../img/20111126_221/mrnoname_1322291591514A0Ooz_JPEG/mrnoname_1322291591_09452.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="comment_p.bOE4A.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  신과 함께 ㅋㅋ 좀 짱이죠
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.26 16:17</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/20131206_138/egoistyle_1386307929222VDw60_PNG/original_profile.s75.png" alt="현정" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">현정</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  저승편까지 몰아보았는데...염라대왕 촘 멋진듯
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.26 17:19</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">클라인스</a>
+
+                                   저승편 순식간에 봤는데 재밌더라구요~ 진기한 변호사 좀 짱인듭
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.26 23:09</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">현정</a>
+
+                                   네~ 전 지금 이승편 보는데 이승편에서도 쿨하게 나오시네요 ㅋ_ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.26 23:10</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">25</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                추울땐 오뎅
+
+      </span>
+      <a href="../../../post/p.bNJ4I.ZA2c.html" class="date_time" title="11.11.25 21:30">11.11.25 21:30</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bNJ4I.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bNJ4I.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DUjI0" class="photo group_p.bNJ4I.ZA2c" >
+                <a href="../../../img/20111125_109/mrnoname_1322224214229Hdkba_JPEG/mrnoname_1322224213_54355.jpg"><img src="../../../img/20111125_109/mrnoname_1322224214229Hdkba_JPEG/mrnoname_1322224213_54355.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_8.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                11010101 10001001 10111100 11110101 11010101 01011100 11001000 11111100 10111001 11010000 10110100 00011000 11000001 00111000 11000110 10010100
+
+      </span>
+      <a href="../../../post/p.bMweY.ZA2c.html" class="date_time" title="11.11.25 16:28">11.11.25 16:28</a>
+    </div>
+    <p class="post_tag">
+      <span>me2unicode</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bMweY.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bMweY.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">2</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bMweY.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  213 137 188 245 213 92 200 252 185 208 180 24 193 56 198 148..?
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.25 16:44</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  D5 89 BC F5 D5 5C C8 FC B9 D0 B4 18 C1 38 C6 94..?
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.25 16:48</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                계절맞이 바탕화면 변경
+
+      </span>
+      <a href="../../../post/p.bMeBE.ZA2c.html" class="date_time" title="11.11.25 10:01">11.11.25 10:01</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bMeBE.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bMeBE.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">2</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bMeBE.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="재톨" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/jmecono/profile.png" alt="재톨">
+                </a></li>
+          </ul>
+        </div>
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DUTUo" class="photo group_p.bMeBE.ZA2c" >
+                <a href="../../../img/20111125_47/mrnoname_1322182851389pte7R_PNG/mrnoname_1322182850_76668.png"><img src="../../../img/20111125_47/mrnoname_1322182851389pte7R_PNG/mrnoname_1322182850_76668.w640.png" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="comment_p.bMeBE.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  우분투인가요?
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.25 13:41</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                   넵 우분투입니다~ ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.25 14:37</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                제가 요즘 잘때 깔깔이를 입고 자는데, 난방비를 아낄수 있는 느낌이에요
+
+      </span>
+      <a href="../../../post/p.bMT9g.ZA2c.html" class="date_time" title="11.11.25 01:14">11.11.25 01:14</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2mobile</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bMT9g.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bMT9g.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">1</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bMT9g.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="배고픈암사자" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/heaven518/profile.png" alt="배고픈암사자">
+                </a></li>
+          </ul>
+        </div>
+        <div id="comment_p.bMT9g.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/heaven518/profile.png" alt="배고픈암사자" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">배고픈암사자</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  겨울 잇아이템 ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.25 09:31</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">24</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://www.sangsangmadang.com/Library/concert/concert2View.asp?seq=892">이상은 콘서트 &#39;SAY YES&#39; Feeling Concert</a>
+
+                 티켓 당첨 됐다! 상은누님 이번 싱글도 좋으시던데...기대기대
+
+      </span>
+      <a href="../../../post/p.bLY9o.ZA2c.html" class="date_time" title="11.11.24 12:01">11.11.24 12:01</a>
+    </div>
+    <p class="post_tag">
+      <span>Bliss 이상은(Leetzsche) me2music</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bLY9o.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bLY9o.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_contents" style="">
+          <div class="data_result" style="padding-bottom:76px">
+            <div class="select_one_item">
+              <div class="db_image">
+                <a class="result_item" href="http://music.naver.com/album/index.nhn?albumId=204967">
+                  <img width="128" alt="Bliss" src="http://image.music.naver.com/album/420/000/204/204967.jpg">
+                </a>
+              </div>
+              <div class="db_cont"><dl><dt><strong><a href="http://music.naver.com/album/index.nhn?albumId=204967">Bliss</a></strong></dt><dd> 뮤지션 <span>|</span> 이상은(Leetzsche)</dd><dd> 발매일 <span>|</span> Aug 16, 2011</dd><dd> 레이블 <span>|</span> Sony Music</dd></dl></div>
+              <div class="db_footer">
+                  <a class="power_by_naver_openapi" href="http://music.naver.com">
+                      <img alt="powered by NAVER" src="../../../images/write_form/logo_naver_music_album.png">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                셀프 비요뜨
+
+      </span>
+      <a href="../../../post/p.bLS4c.ZA2c.html" class="date_time" title="11.11.24 09:59">11.11.24 09:59</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bLS4c.ZA2c.html"><span class="bg">2</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bLS4c.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">5</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bLS4c.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="맨체스터" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/jjongsai84/profile.png" alt="맨체스터">
+                </a></li>
+                <li><a title="두두" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/ehdroto5/profile.png" alt="두두">
+                </a></li>
+          </ul>
+        </div>
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DT3KI" class="photo group_p.bLS4c.ZA2c" >
+                <a href="../../../img/20111124_229/mrnoname_1322096359414B3cAg_JPEG/mrnoname_1322096359_01075.jpg"><img src="../../../img/20111124_229/mrnoname_1322096359414B3cAg_JPEG/mrnoname_1322096359_01075.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="comment_p.bLS4c.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  근데 맛은 실패
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 10:01</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/iitns/profile.png" alt="과소비자" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">과소비자</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  두개 가지고 가지 말라곸
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 10:05</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  오..아이디어 좋은데요 ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 10:50</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">과소비자</a>
+
+                                   안먹을때도 있으니 무효 ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 11:58</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">클라인스</a>
+
+                                   그런데 맛은 별루더라구요 ㅠㅠ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 11:58</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">23</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                나...예비군 받으러 대구까지 가야 돼?
+
+      </span>
+      <a href="../../../post/p.bKKqo.ZA2c.html" class="date_time" title="11.11.23 12:15">11.11.23 12:15</a>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  [국방] 
+                  내년 1월부터 복무했던 부대서 예비군 훈련
+          </span>
+          <span class="pingback_option_link">
+            <span class="option_inner">
+              by <a class="pingback_post_writer profile_popup no_link">네이버뉴스</a>
+            </span>
+          </span>
+        </div>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bKKqo.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bKKqo.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">4</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bKKqo.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/dan850614/profile.png" alt="새턴인DAN" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">새턴인DAN</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  내가 있던 부대는 해체됐는데..?!아, 그러고보니 난 예비군 끝났구나 -ㅁ-;
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.23 12:53</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/puteri/profile.png" alt="에슐릿" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">에슐릿</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  공가 2박 3일 나오겠는데요? ㅋ;
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.23 14:25</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">새턴인DAN</a>
+
+                                   헐 너 벌써 끝남?
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 11:58</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/dan850614/profile.png" alt="새턴인DAN" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">새턴인DAN</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">조뱅</a>
+
+                                    동원끝났잖아~ 5년차
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.24 12:02</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_9.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                A : 야, FTA하면 안된다며? 그냥 21번 포트를 막으면 되지 않냐?B : 미친놈아 그건 FTP고
+
+      </span>
+      <a href="../../../post/p.bKEqo.ZA2c.html" class="date_time" title="11.11.23 10:06">11.11.23 10:06</a>
+    </div>
+    <p class="post_tag">
+      <span>아침부터 뽱...씁쓸하지만... me2mobile</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bKEqo.ZA2c.html"><span class="bg">8</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bKEqo.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bKEqo.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="Rim" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/20131005_287/hyerim85_1380976411641KH5HS_JPEG/original_profile.s75.jpg" alt="Rim">
+                </a></li>
+                <li><a title="fcliver" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/20121103_61/ssimzi_13518783236107FfCl_JPEG/original_profile.s75.jpg" alt="fcliver">
+                </a></li>
+                <li><a title="freeism" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/freeism7/profile.png" alt="freeism">
+                </a></li>
+                <li><a title="나뭇잎" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/openmaya2/profile.png" alt="나뭇잎">
+                </a></li>
+                <li><a title="cypher" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/cypher/profile.png" alt="cypher">
+                </a></li>
+                <li><a title="데쯔오" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/thamasino/profile.png" alt="데쯔오">
+                </a></li>
+                <li><a title="종명" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/whdaud/profile.png" alt="종명">
+                </a></li>
+                <li><a title="과소비자" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/iitns/profile.png" alt="과소비자">
+                </a></li>
+          </ul>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">22</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                으아...좋다...좀 불편하겠지만 공간활용도는 짱인 듯...이사갈 방 그리 크지도 않은데 이런 침대나 놓을까...아침마다 사다리 타고 내려올 때 긴장해서 잠이 확 깰 듯...
+
+      </span>
+      <a href="../../../post/p.bJf4c.ZA2c.html" class="date_time" title="11.11.22 20:49">11.11.22 20:49</a>
+    </div>
+    <p class="post_tag">
+      <span>술먹고 들어가면 귀찮아서 그냥 바닥에서 잘 지도... me2sns me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bJf4c.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bJf4c.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">3</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.DTQys" class="photo group_p.bJf4c.ZA2c" >
+                <a href="../../../img/20111122_107/mrnoname_1321962485753Qebpj_JPEG/mrnoname_1321962485_40171.jpg"><img src="../../../img/20111122_107/mrnoname_1321962485753Qebpj_JPEG/mrnoname_1321962485_40171.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="comment_p.bJf4c.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  옆으로 구르면 그냥 잠 깰 거 같네요;;
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 21:09</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                   더 구르면 머리도 깰 듯여...ㄷ_ㄷ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 21:10</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">조뱅</a>
+
+                                   머리가 깨질 정도로 아파야 잠을 깨네요 이젠 만성수면증ㄷㄷ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 21:19</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                여러분의 열화같은 성원에 힘입어 닉은 그냥 조뱅으로 그냥 쓰기로 했어요. 별명마저 바뀌면 헷갈릴 사람들이 넘 많은 듯. 그냥 계속 조뱅할게요. 조 &#39;the BANG&#39; 민규.
+
+      </span>
+      <a href="../../../post/p.bJdwA.ZA2c.html" class="date_time" title="11.11.22 20:29">11.11.22 20:29</a>
+    </div>
+    <p class="post_tag">
+      <span>뱅은 미들네임으로 써야겠음.</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bJdwA.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bJdwA.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bJdwA.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="재톨" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/jmecono/profile.png" alt="재톨">
+                </a></li>
+          </ul>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_10.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://news.naver.com/main/vod/vod.nhn?oid=052&amp;aid=0000382136">뭐? 새벽에 눈이 왔다고?!</a>
+
+      </span>
+      <a href="../../../post/p.bI0yM.ZA2c.html" class="date_time" title="11.11.22 10:09">11.11.22 10:09</a>
+    </div>
+    <p class="post_tag">
+      <span>으잉 첫눈...바닥이 촉촉하길래 비나 온 줄 알았더니...</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bI0yM.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bI0yM.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">2</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bI0yM.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/dan850614/profile.png" alt="새턴인DAN" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">새턴인DAN</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  자네도 내복하나 장만하시게 &#39;ㅇ&#39;)~
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 10:11</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">새턴인DAN</a>
+
+                                   미안 친구 나에겐 히트텍이...
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 10:12</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">21</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                여러분 지가요 개명을해서 이름이 바꼈걸랑요...그래서 조뱅에서 다른 걸로 닉을 바꿔야 될 것 같은데 뭐가 좋을까요...
+
+      </span>
+      <a href="../../../post/p.bH894.ZA2c.html" class="date_time" title="11.11.21 17:26">11.11.21 17:26</a>
+    </div>
+    <p class="post_tag">
+      <span>조병연-&gt;조민규로 바껴서 다들 조밍 조밍이라던데 조밍은 뭔가 대륙의 기운이 느껴저서 쫌...</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bH894.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bH894.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">6</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bH894.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="_PSY_" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/james1985/profile.png" alt="_PSY_">
+                </a></li>
+          </ul>
+        </div>
+        <div id="comment_p.bH894.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/20130808_2/tygiel_13759696014007K39s_PNG/original_profile.s75.png" alt="t" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">t</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  오 이름을 바꾸셨군요 ㅎㅎ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 17:28</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">t</a>
+
+                                   네 ㅋㅋ 가볍게 생각하고 바꿨는데 처리할 일들이 너무 많네요 OTL
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 17:29</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/lovelyblah/profile.png" alt="순구라" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">순구라</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  조맹? 조멍?
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 18:05</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/slayd/profile.png" alt="슬레이드" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">슬레이드</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  조뱅 닉네임 참 찰지게 잘지었다 생각헸는데 아깝다
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 19:26</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/dan850614/profile.png" alt="새턴인DAN" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">새턴인DAN</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  조밐
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 20:10</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  조뱅 좋아요 바꾸지 마세요. 원래 이름 예쁘셨는데 왜 ㅜㅜㅜ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.22 02:18</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://music.naver.com/album/index.nhn?albumId=902#10983">다중인격자</a>
+
+                 &quot;Listening to 출국 (出國) - 하림&quot; 김동률 이번 엘범을 듣다가 오랜만에 들리는 목소리가 반가워서. 몇일은 하림만 듣겠다.
+
+      </span>
+      <a href="../../../post/p.bHjeo.ZA2c.html" class="date_time" title="11.11.21 09:40">11.11.21 09:40</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns 다중인격자 하림 me2music</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bHjeo.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bHjeo.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">3</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_contents" style="">
+          <div class="data_result" style="padding-bottom:76px">
+            <div class="select_one_item">
+              <div class="db_image">
+                <a class="result_item" href="http://music.naver.com/album/index.nhn?albumId=902">
+                  <img width="128" alt="1집 다중인격자" src="http://image.music.naver.com/album/420/000/000/902.jpg">
+                </a>
+              </div>
+              <div class="db_cont"><dl><dt><strong><a href="http://music.naver.com/album/index.nhn?albumId=902">1집 다중인격자</a></strong></dt><dd> 뮤지션 <span>|</span> 하림</dd><dd> 발매일 <span>|</span> Dec 27, 2001</dd><dd> 레이블 <span>|</span> 미러볼뮤직</dd></dl></div>
+              <div class="db_footer">
+                  <a class="power_by_naver_openapi" href="http://music.naver.com">
+                      <img alt="powered by NAVER" src="../../../images/write_form/logo_naver_music_album.png">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="comment_p.bHjeo.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  태그가 왠지 무섭
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 09:44</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  근데 왜 me2sns가 뜨나요? 궁금
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 09:44</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/mrnoname/profile.png" alt="조뱅" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">조뱅</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                   전 me2sns가 트윗, 페북 연동용 태그랍니다~ fb tw이렇게 줄줄이 쓰는게 싫어서요 ㅋㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.21 09:46</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">20</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                EBS에서 트랜스포머 애니메이션 하네 ㅋㅋ 범블비 긔요믜
+
+      </span>
+      <a href="../../../post/p.bGLzA.ZA2c.html" class="date_time" title="11.11.20 11:43">11.11.20 11:43</a>
+    </div>
+    <p class="post_tag">
+      <span>me2mobile</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bGLzA.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bGLzA.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                KBS1 독립영화관에서 혜화, 동 한다
+
+      </span>
+      <a href="../../../post/p.bF5rY.ZA2c.html" class="date_time" title="11.11.20 01:17">11.11.20 01:17</a>
+    </div>
+    <p class="post_tag">
+      <span>혜화,동 me2movie</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bF5rY.ZA2c.html"><span class="bg">1</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bF5rY.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="metoo_p.bF5rY.ZA2c" class="metoo_list" style="display:none;">
+          <ul>
+                <li><a title="재톨" class="profile_popup no_link">
+                    <img width="43" height="43" src="../../../img/images/user/jmecono/profile.png" alt="재톨">
+                </a></li>
+          </ul>
+        </div>
+        <div class="embed_contents" style="">
+          <div class="data_result" style="padding-bottom:76px">
+            <div class="select_one_item">
+              <div class="db_image">
+                <a class="result_item" href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=74453">
+                  <img width="128" alt="혜화,동" src="http://imgmovie.naver.com/mdi/mit150/0744/74453_P43_110250.jpg">
+                </a>
+              </div>
+              <div class="db_cont"><dl><dt><strong><a href="http://movie.naver.com/movie/bi/mi/basic.nhn?code=74453">혜화,동</a></strong></dt><dd> 감독 <span>|</span> 민용근</dd><dd> 주연 <span>|</span> 유다인, 유연석</dd><dd> 평점 <span>|</span> 8.38</dd></dl></div>
+              <div class="db_footer">
+                  <a class="power_by_naver_openapi" href="http://movie.naver.com">
+                      <img alt="powered by NAVER" src="../../../images/write_form/logo_naver_movie.png">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">19</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_10.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                11월 중순에 모기때문에 잠을 못자다니...
+
+      </span>
+      <a href="../../../post/p.bEqyw.ZA2c.html" class="date_time" title="11.11.19 07:20">11.11.19 07:20</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns me2mobile</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bEqyw.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bEqyw.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">18</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_7.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;oid=092&amp;aid=0001990502&amp;sid1=001">&#39;MS, 소셜 전쟁 &#39;출사표&#39;&hellip;SNS 출격 임박&#39;</a>
+
+                 MS도 소셜한데...이제 그만 좀...
+
+      </span>
+      <a href="../../../post/p.bD9xI.ZA2c.html" class="date_time" title="11.11.18 18:12">11.11.18 18:12</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns 네이버뉴스 ZDNet Korea</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bD9xI.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bD9xI.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">1</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bD9xI.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  socl인가보네요. 빙이나 좀 잘 하지.. 여태까지 페이스북이랑 그렇게 친하게 지내놓고 허허
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 19:01</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                금요일 퇴근길은 도로가 항상 막히니까...오늘은 신분당선 타고 가볼까...실제로도 대중교통 최단경로가 신분당선 타는 걸로 되있네...
+
+      </span>
+      <a href="../../../post/p.bD5xo.ZA2c.html" class="date_time" title="11.11.18 17:24">11.11.18 17:24</a>
+    </div>
+    <p class="post_tag">
+      <span>환승도 2번만 하면... me2sns</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bD5xo.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bD5xo.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_11.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                헐?! 
+
+              <a href="http://www.youtube.com/watch?v=GStN0KWHlt0으로">보노보노가 온라인게임</a>
+
+                나온다고?거기다 한게임에서 서비스 한다니...난 왜 여태 모르고 있었지...동물의 숲 같은 느낌이면 재밌겠다...ㅋ_ㅋ
+
+      </span>
+      <a href="../../../post/p.bDxn4.ZA2c.html" class="date_time" title="11.11.18 15:39">11.11.18 15:39</a>
+    </div>
+    <p class="post_tag">
+      <span>무려 미투데이 계정도 있으시네...으악 링크 실패 ㅋㅋ</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bDxn4.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bDxn4.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">8</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div id="comment_p.bDxn4.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  오..귀여운 보노보노..ㅋㅋ 때릴꺼야?ㅋㅋ가 기억에 남는다는
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 15:39</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">클라인스</a>
+
+                                   그건 보노보노가 아니라 포로리인데 ㅜㅜ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:55</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/dan850614/profile.png" alt="새턴인DAN" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">새턴인DAN</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  몇년전부터 나온다는 얘기나 찔금 영상 정도만 보여주던데 언제 열릴지... 잼있어보이는데ㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:55</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                   보노보노에 나오는 포로리 말한건데 ^ㅡ^;;
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:56</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">클라인스</a>
+
+                                   네 ^_^ 하지만 포로리는 남자 헉
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:57</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                  헉..포로리 남자였어여?-0-;;헐
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:57</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">클라인스</a>
+
+                                   헉 모르셨군요 죄송해요 저때문에 멘탈에 큰 충격이 가셨을듯 ㅜㅜ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:57</span>
+                  </div>
+                </div>
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/silverlight/profile.png" alt="클라인스" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">클라인스</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                <a class="profile_popup no_link">재톨</a>
+
+                                   머리속에 혼란이....ㅠ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 16:58</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://music.naver.com/album/index.nhn?albumId=300527#3005906">KimdongrYULE</a>
+
+                 &quot;Listening to 우리가 세상을 살아가는 법 (Feat. Friends) - 김동률&quot; 난 이렇게 때로 같이 부르는 노래들이 좋다...이번에도 초호화 멤버로 불렀네 ㅋ 존박 목소리 들어보면 김동률이 만드는 존박 음악이 어떨지 예상이 된다
+
+      </span>
+      <a href="../../../post/p.bDfpI.ZA2c.html" class="date_time" title="11.11.18 09:12">11.11.18 09:12</a>
+    </div>
+    <p class="post_tag">
+      <span>me2sns KimdongrYULE 김동률 me2music</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bDfpI.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bDfpI.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">1</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_contents" style="">
+          <div class="data_result" style="padding-bottom:76px">
+            <div class="select_one_item">
+              <div class="db_image">
+                <a class="result_item" href="http://music.naver.com/album/index.nhn?albumId=300527">
+                  <img width="128" alt="KimdongrYULE" src="http://image.music.naver.com/album/420/000/300/300527.jpg">
+                </a>
+              </div>
+              <div class="db_cont"><dl><dt><strong><a href="http://music.naver.com/album/index.nhn?albumId=300527">KimdongrYULE</a></strong></dt><dd> 뮤지션 <span>|</span> 김동률</dd><dd> 발매일 <span>|</span> Nov 15, 2011</dd><dd> 레이블 <span>|</span> 로엔 엔터테인먼트</dd></dl></div>
+              <div class="db_footer">
+                  <a class="power_by_naver_openapi" href="http://music.naver.com">
+                      <img alt="powered by NAVER" src="../../../images/write_form/logo_naver_music_album.png">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="comment_p.bDfpI.ZA2c" class="comment_list" style="display:none;">
+          <div class="comments_list_wrap">
+                <div class="comment_item">
+                  <a class="comment_profile profile_popup no_link">
+                    <img src="../../../img/images/user/jmecono/profile.png" alt="재톨" width="30" height="30">
+                  </a>
+                  <span class="comment_author"><a class="profile_popup no_link">재톨</a></span>
+                  <div class="comment_body">
+                    <span class="comment_text">
+                      <p class="para">
+                                  김동률표 떼창 ㅋㅋ
+
+                      </p>
+                    </span>
+                    <span class="comment_time">11.11.18 17:06</span>
+                  </div>
+                </div>
+          </div>
+        </div>
+  </div>
+</div>
+  </div>
+  <div class="post for_post">
+    <div class="post_head">
+      <div class="writting_date">
+        <strong class="w_day">16</strong>
+        <span class="w_mon">NOV</span>2011
+      </div>
+    </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://www.youtube.com/watch?v=qEb4TG10jW8">Summer</a>
+
+                 &amp; 
+
+              <a href="http://www.youtube.com/watch?v=Y2MdvfCiork">Spring</a>
+
+                  이 두곡 들으면서 계속 비슷하다고 생각했었는데...Spring이 Summer 편곡한 거였구나...
+
+      </span>
+      <a href="../../../post/p.bBFjQ.ZA2c.html" class="date_time" title="11.11.16 10:08">11.11.16 10:08</a>
+    </div>
+    <p class="post_tag">
+      <span>한번 비교해서 들어보세요~ 비슷하지만 Spring이 Summer보다 차분한 느낌이랄까... Freedom：Piano Stories 4 Joe Hisaishi me2music</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bBFjQ.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bBFjQ.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_contents" style="">
+          <div class="data_result" style="padding-bottom:76px">
+            <div class="select_one_item">
+              <div class="db_image">
+                <a class="result_item" href="http://music.naver.com/album/index.nhn?albumId=31345">
+                  <img width="128" alt="Freedom：Piano Stories 4" src="http://image.music.naver.com/album/420/000/031/31345.jpg">
+                </a>
+              </div>
+              <div class="db_cont"><dl><dt><strong><a href="http://music.naver.com/album/index.nhn?albumId=31345">Freedom：Piano Stories 4</a></strong></dt><dd> 뮤지션 <span>|</span> Joe Hisaishi</dd><dd> 발매일 <span>|</span> Feb 24, 2005</dd><dd> 레이블 <span>|</span> (주) 유니버설 뮤직</dd></dl></div>
+              <div class="db_footer">
+                  <a class="power_by_naver_openapi" href="http://music.naver.com">
+                      <img alt="powered by NAVER" src="../../../images/write_form/logo_naver_music_album.png">
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/mrnoname/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                자기 전엔 잘 수 있어서 너무 좋고,일어 날 땐 더 잘 수 없어서 너무 싫다.이 두 순간은 맞붙어 있다.읔.
+
+      </span>
+      <a href="../../../post/p.bA7DY.ZA2c.html" class="date_time" title="11.11.16 01:02">11.11.16 01:02</a>
+    </div>
+    <p class="post_tag">
+      <span>잠이 너무 좋아</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+      <span class="metoo_count">
+		<a class="post_metoo btn_type_default_4 no_link" >
+          <span class="btn_inner" ><span class="btn"><span class="status"><span class="label">미투</span></span></span></span>
+        </a>
+		<a class="metoo_count_number metoo_toggle" href="../../../post/p.bA7DY.ZA2c.html"><span class="bg">0</span></a>
+      </span>
+      <a class="comment_toggle" href="../../../post/p.bA7DY.ZA2c.html">
+        <span class="comment_txt">댓글</span> <strong class="comment_num">0</strong>
+      </a>
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+  </div>
+  <div id="next-post-list" style="display:none;">
+    <a id="next-post-list-link" href="BM6f2uGA.p.bA7DY.ZA2c.html">more</a>
+  </div>
+      </div>
+      <div class="more_view">
+          <div class="page_nate kor">
+          <a href="20.html" class="btn_prev">이전</a>
+      <span class="page_num">
+            <a href="21.html" >21</a>
+            <a href="22.html" >22</a>
+            <a href="23.html" >23</a>
+            <a href="24.html" >24</a>
+            <a href="25.html" >25</a>
+            <a href="26.html" class="on">26</a>
+            <a href="27.html" >27</a>
+            <a href="28.html" >28</a>
+            <a href="29.html" >29</a>
+            <a href="30.html" >30</a>
+      </span>
+          <a href="31.html" class="btn_next">다음</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer" class="color_set2 color_set4">
+  <div class="footer_contents" style="position:relative">
+    <address>copyright © NAVER Corp.</address>
+  </div>
+</div>
+<div id="profile_popup_frame" style="position: absolute; display:inline;">
+    <iframe width="358" height="285" frameBorder="0" src="about:blank"></iframe>
+</div>
+</body>
+</html>
